@@ -12,3 +12,4 @@ function writeMessage() {
     );
 
     window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;
+}
