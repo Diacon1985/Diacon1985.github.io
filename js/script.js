@@ -11,4 +11,4 @@ function writeMessage() {
         "Thank you."
     );
 
-    window.location.href = `mailto:${email}?subject=${body}&body=${body}`;
+    window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;
